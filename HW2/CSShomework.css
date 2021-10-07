@@ -1,0 +1,168 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.sixthvert {
+  height: 16.665%
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+#eagle {
+  position: absolute;
+  height: 33%;
+  z-index: 2;
+  top: 30%;
+  left: 40%;
+}
+
+
+.topcolumn {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 67%;
+}
+
+.topleft {
+  position: relative;
+  width: 33%;
+  height: 100%;
+  z-index: 1;
+}
+
+.horizcross {
+  position: absolute;
+  top: 40%;
+}
+
+.fill {
+  height: 100%;
+}
+
+.twentyh {
+  height: 20%;
+  width: 100%;
+}
+
+.twentyv {
+  width: 20%;
+  height: 100%;
+}
+
+.vertcross {
+  position: absolute;
+  left: 40%;
+}
+
+.botcolumn {
+  display: flex;
+  flex-direction: column;
+  height: 44.45%;
+}
+
+.toprow {
+  height: 55.55%;
+  display: flex;
+}
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
